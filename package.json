@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node index.js"
+    "start": "node index.js"
   },
   "author": "andrzej",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.3"
+  }
 }
