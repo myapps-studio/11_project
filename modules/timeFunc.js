@@ -9,10 +9,9 @@ function secondConv() {
     minutes = Math.floor(minutes);
     
     var seconds = input - (hours * 3600) - (minutes * 60);
-    var time = String(hours) + 'godz.' + String(minutes) + 'min.' + String(seconds) + 'sek.';
+    var time = String(hours) + ' godz. ' + String(minutes) + ' min. ' + String(seconds) + ' sek. ';
 
     return time;
-    /* console.log(String(hours), 'godz.', String(minutes), 'min.', String(seconds), 'sek.'); */
 };
 
 exports.print = secondConv;
